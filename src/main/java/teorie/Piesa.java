@@ -11,6 +11,10 @@ public class Piesa {
         return piesePrecedente;
     }
 
+    public void setPiesePrecedente(ArrayList<Integer> piesePrecedente) {
+        this.piesePrecedente = piesePrecedente;
+    }
+
     public int getIdPiesa() {
         return idPiesa;
     }
@@ -25,6 +29,10 @@ public class Piesa {
 
     public void setCostPiesa(int costPiesa) {
         this.costPiesa = costPiesa;
+    }
+
+    public void adaugaPiesePrecedente(Integer element){
+        this.piesePrecedente.add(element);
     }
 
     @Override
