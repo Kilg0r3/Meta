@@ -18,7 +18,7 @@ public class Trial {
         show();
         for (Piesa p:solutieIntermed1
              ) {
-            getCost(p);
+            getCost(p,solutieIntermed1);
             costTotal += p.getCostPiesa();
         }
         show2();
@@ -71,8 +71,8 @@ public class Trial {
         }
     }
 
-    void getCost(Piesa z){
-        for (Piesa x:Referinta
+    void getCost(Piesa z, ArrayList<Piesa> a){
+        for (Piesa x:a
              ) {
             if(x.getIdPiesa() == z.getIdPiesa())
             {

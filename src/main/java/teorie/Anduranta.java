@@ -1,5 +1,6 @@
 package teorie;
 
+import java.sql.Ref;
 import java.util.ArrayList;
 
 public class Anduranta {
@@ -14,14 +15,14 @@ public class Anduranta {
         Coonstruct();
         Init();
         defaultCost();
-        Show();
+        Show(Referinta);
         for(Piesa p:solutieIntermed1){
             getCost(p);
             costTotal += p.getCostPiesa();
         }
-        Show2();
+        Show(solutieIntermed1);
         System.out.println("Cost total: " + costTotal);
-        Show();
+        Show(Referinta);
     }
 
     void Coonstruct(){
@@ -92,8 +93,8 @@ public class Anduranta {
         }
     }
 
-    void Show(){
-        for(Piesa p:Referinta){
+    void Show(ArrayList<Piesa> a){
+        for(Piesa p:a){
             System.out.println("ID: " + p.getIdPiesa() +
                     "; Comp prec: " + p.getPiesePrecedente() +
                     "; Cost: " + p.getCostPiesa());
