@@ -47,7 +47,7 @@ public class Trial {
     }
 
     void Init(){
-        for(int i=3; i>0;i--){
+        for(int i=1; i<4;i++){
             Piesa p = new Piesa();
             p.setIdPiesa(new Integer(i));
             solutieIntermed1.add(p);
