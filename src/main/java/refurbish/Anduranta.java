@@ -1,14 +1,12 @@
-package teorie;
-
-import java.util.ArrayList;
+package refurbish;
 
 public class Anduranta {
 
-    private ArrayList<Piesa> referinta = new ArrayList<Piesa>();
+ /*   //private ArrayList<Piesa> referinta = new ArrayList<Piesa>();
 
 
 
-    private Masinarie masina = new Masinarie();
+    //private Masinarie masina = new Masinarie();
 
 
 
@@ -18,22 +16,22 @@ public class Anduranta {
 
     public void aranjeaza() {
         //masina.coonstruct();
-        masina.constructModel();
+        //masina.constructModel();
         //Coonstruct();
 
         //creareSolutie();
         //defaultCost();
-        masina.defaultCost();
-        Show(masina.getModel());
+        //masina.defaultCost();
+        //Show(masina.getModel());
         //calculeazaCost();
         //show(solutieIntermed1);
         //
-        Show(masina.getModel());
+        //Show(masina.getModel());
     }
 
+*/
 
-
-
+/*
     void Show(ArrayList<Piesa> a) {
         for (Piesa p : a) {
             System.out.println("ID: " + p.getIdPiesa() +
@@ -41,7 +39,7 @@ public class Anduranta {
                     "; Cost: " + p.getCostPiesa());
         }
     }
-
+*/
 
 
 

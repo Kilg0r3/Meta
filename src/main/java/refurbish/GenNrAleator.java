@@ -1,4 +1,4 @@
-package teorie;
+package refurbish;
 import java.util.Random;
 public class GenNrAleator {
     GenNrAleator(){

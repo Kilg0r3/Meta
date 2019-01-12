@@ -26,10 +26,12 @@ public class App
         masina.show(masina.getModel());
 
         Robot r = new Robot();
+        r.setMasina(masina);
         r.creareSolutie();
         r.show(r.getSolutieIntermed1());
 
         r.calculeazaCost();
+
         r.show((r.getSolutieIntermed1()));
         //r.asambleaza();
 

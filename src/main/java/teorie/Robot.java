@@ -5,8 +5,24 @@ import java.util.ArrayList;
 public class Robot {
     private ArrayList<Piesa> pieseDeAsamblat = new ArrayList<>();
     private ArrayList<Piesa> solutieIntermed1 = new ArrayList<Piesa>();
-    private Masinarie masina = new Masinarie();
-    int costTotal = 0;
+    private Masinarie masina;
+    private int costTotal = 0;
+
+    public int getCostTotal() {
+        return costTotal;
+    }
+
+    public void setCostTotal(int costTotal) {
+        this.costTotal = costTotal;
+    }
+
+    public Masinarie getMasina() {
+        return masina;
+    }
+
+    public void setMasina(Masinarie masina) {
+        this.masina = masina;
+    }
 
     public ArrayList<Piesa> getSolutieIntermed1() {
         return solutieIntermed1;
@@ -39,10 +55,11 @@ public class Robot {
     public void calculeazaCost() {
         for (Piesa p : solutieIntermed1) {
             //getCost(p);
-            masina.getCost(p);
+            p = masina.getCost(p);
+
             costTotal += p.getCostPiesa();
         }
-        System.out.println("Cost total: " + costTotal);
+
     }
 
     public void Show2() {
@@ -60,5 +77,6 @@ public class Robot {
                     "; Comp prec: " + p.getPiesePrecedente() +
                     "; Cost: " + p.getCostPiesa());
         }
+        System.out.println("Cost total: " + costTotal);
     }
 }

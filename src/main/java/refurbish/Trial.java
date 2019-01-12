@@ -1,4 +1,6 @@
-package teorie;
+package refurbish;
+
+import teorie.Piesa;
 
 import java.util.ArrayList;
 import java.util.Collections;

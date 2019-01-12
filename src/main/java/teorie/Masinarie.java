@@ -212,7 +212,7 @@ public class Masinarie {
 
 
 
-    public void getCost(Piesa z) {
+    public Piesa getCost(Piesa z) {
         for (Piesa x : model) {
             if (x.getIdPiesa() == z.getIdPiesa()) {
                 z.setCostPiesa(x.getCostPiesa());
@@ -220,6 +220,8 @@ public class Masinarie {
                 x.setCostPiesa(x.getCostPiesa() - 5);
             }
         }
+
+        return z;
     }
 
     public void defaultCost() {
@@ -235,4 +237,6 @@ public class Masinarie {
                     "; Cost: " + p.getCostPiesa());
         }
     }
+
+
 }
