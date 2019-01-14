@@ -22,18 +22,26 @@ public class App
 
         Masinarie masina = new Masinarie();
         masina.constructModel();
-        masina.defaultCost();
         masina.show(masina.getModel());
 
         Robot r = new Robot();
         r.setMasina(masina);
         r.creareSolutie();
-        r.show(r.getSolutieIntermed1());
+        //r.show(r.getSolutieIntermed1());
+        r.hillClimbCuPornireAleatoare();
 
-        r.calculeazaCost();
 
-        r.show((r.getSolutieIntermed1()));
+        //r.show((r.getSolutieIntermed1()));
+        //r.show(masina.getModelInProcesare());
+        //masina.defaultCost();
+        //r.calculeazaCost2();
+        //r.show(r.getSolIntermed2());
+
+
+
+        //r.show(masina.getModel());
         //r.asambleaza();
+
 
 
 
@@ -47,6 +55,8 @@ public class App
 
 
     }
+
+
 
     /*public void aranjeaza() {
         //masina.coonstruct();

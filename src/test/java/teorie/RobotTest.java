@@ -36,7 +36,7 @@ public class RobotTest {
         model.add(piesa);
         masina.setModel(model);
         robot.setMasina(masina);
-        masina.defaultCost();
+        //masina.defaultCost();
         robot.calculeazaCost();
         assertEquals(5, robot.getCostTotal());
     }

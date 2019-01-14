@@ -1,0 +1,14 @@
+
+’squid:S1319"tThe type of the "modelCopy" object should be an interface such as "List" rather than the implementation "ArrayList".(®ĞŞÄ8©µÂÊ„-
+ƒsquid:S1319v"lThe type of the "a" object should be an interface such as "List" rather than the implementation "ArrayList".(ÆÃÆÅ
+[squid:UnusedPrivateMethod~"/Remove this unused private "cloneModel" method.(æÒ‚8¤ÙşÊ„-
+[
+squid:S106j"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8–¸öÉ„-
+Œsquid:S1319"pThe type of the "model" object should be an interface such as "List" rather than the implementation "ArrayList".(œ¤ÑÖüÿÿÿÿ
+Fsquid:S11484"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8ëêšÉ„-
+‡squid:S1319"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(„Š¸
+“squid:S1319"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(¯¿İúÿÿÿÿ8©µÂÊ„-
+T
+squid:S106x"9Replace this use of System.out or System.err by a logger.(Óƒ¢Íûÿÿÿÿ
+Wsquid:S1075#"ARefactor your code to get this URI from a customizable parameter.(ä­–c
+nsquid:CommentedOutCodeLineg"<This block of commented-out lines of code should be removed.(¶×¢’ûÿÿÿÿ8öÔÛÌ„-

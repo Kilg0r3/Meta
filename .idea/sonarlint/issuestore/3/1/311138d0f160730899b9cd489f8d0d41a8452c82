@@ -1,0 +1,46 @@
+
+—squid:S1319"{The type of the "solutieIntermed1" object should be an interface such as "List" rather than the implementation "ArrayList".(ãî¦ƒıÿÿÿÿ
+squid:S1319G"lThe type of the "p" object should be an interface such as "List" rather than the implementation "ArrayList".(›À”ßşÿÿÿÿ8Ïş°Ë„-
+[
+squid:S106H"9Replace this use of System.out or System.err by a logger.(âÚ†»üÿÿÿÿ8•í¾Ë„-
+O
+squid:S106j"9Replace this use of System.out or System.err by a logger.(ÓäÑ
+5squid:S2153v"Remove the boxing of "i".(Ê•Äûÿÿÿÿ
+O
+squid:S106k"9Replace this use of System.out or System.err by a logger.(ù‰õ
+Asquid:S2119Z"Save and re-use this "Random".(šŸ«íøÿÿÿÿ8’­ùÈ„-
+squid:S1186Ä"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ÁÎ Åÿÿÿÿÿ
+V
+squid:S106J"9Replace this use of System.out or System.err by a logger.(¼Óâí8Ç±³Ë„-
+bsquid:CommentedOutCodeLine="<This block of commented-out lines of code should be removed.(éë™
+Œsquid:S1319"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(©ıå™şÿÿÿÿ
+’squid:S1319µ"zThe type of the "pieseDeAsamblat" object should be an interface such as "List" rather than the implementation "ArrayList".(Æ€®µ
+squid:S1319•"vThe type of the "solutieBest" object should be an interface such as "List" rather than the implementation "ArrayList".(úØ¡Ü
+squid:S1319"tThe type of the "rezultate" object should be an interface such as "List" rather than the implementation "ArrayList".(“ş…Àşÿÿÿÿ
+bsquid:CommentedOutCodeLineE"<This block of commented-out lines of code should be removed.(éë™
+squid:S1319±"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(Ì¿òÈüÿÿÿÿ
+isquid:CommentedOutCodeLine}"<This block of commented-out lines of code should be removed.(Áñá©8ë¬øË„-
+squid:S1319‘"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(Ä­ÎÁüÿÿÿÿ
+‡squid:S1319"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(“ä«
+T
+squid:S1061"9Replace this use of System.out or System.err by a logger.(Óƒ¢Íûÿÿÿÿ
+U
+squid:S106½"9Replace this use of System.out or System.err by a logger.(Ì•×²üÿÿÿÿ
+gsquid:UselessImportCheck"7Remove this unused import 'java.security.SecureRandom'.(›éè™úÿÿÿÿ8¦¢ñÈ„-
+=squid:S2129v"!Remove this "Integer" constructor(Ê•Äûÿÿÿÿ
+lsquid:S00100º"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ô¶Ë½úÿÿÿÿ
+psquid:S2293	"YReplace the type specification in this constructor call with the diamond operator ("<>").(Ö·éÇ
+ƒsquid:S1319/"lThe type of the "a" object should be an interface such as "List" rather than the implementation "ArrayList".(ÆÃÆÅ
+”squid:S1319¥"wThe type of the "solIntermed2" object should be an interface such as "List" rather than the implementation "ArrayList".(†øòÿÿÿÿÿ
+T
+squid:S106o"9Replace this use of System.out or System.err by a logger.(µøÿÿÿÿ
+T
+squid:S1065"9Replace this use of System.out or System.err by a logger.(™…Í˜øÿÿÿÿ
+lsquid:S00100Ä"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÁÎ Åÿÿÿÿÿ
+N
+squid:S106:"9Replace this use of System.out or System.err by a logger.(ùe
+šsquid:S13198"~The type of the "rezultatCostCalculs" object should be an interface such as "List" rather than the implementation "ArrayList".(°š‹€ûÿÿÿÿ
+gsquid:CommentedOutCodeLine$"<This block of commented-out lines of code should be removed.(¼º†‚ûÿÿÿÿ
+O
+squid:S106B"9Replace this use of System.out or System.err by a logger.(£¥§Í
+squid:S1319¡"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(‹×Ê¼øÿÿÿÿ

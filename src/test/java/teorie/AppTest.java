@@ -17,4 +17,14 @@ public class AppTest
     {
         assertTrue( true );
     }
+
+    public void ExpectAplicationShouldRunMaxim3Seconds() { }
+
+    public void ExpectAssemblyCostBe0() {}
+
+    public void ExpectApplizationExitWhenAssemblyCostIs0() {}
+
+    public void ExpectApplicationToReuseAlgorithmUntilCostIs0() {}
+
+    public void ExpectApplizationExitWhenAssemblyCostIsNegativeNumber() {}
 }
