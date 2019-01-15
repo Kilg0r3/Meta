@@ -17,3 +17,11 @@ S
 #src/main/java/teorie/Masinarie.java,c\9\c9e00381c9a96fff30d0e614b4dd9a62754cbeec
 O
 src/main/java/teorie/Robot.java,3\1\311138d0f160730899b9cd489f8d0d41a8452c82
+V
+&src/main/java/refurbish/Anduranta.java,6\1\610a928af7a6d03df377fc8a45ad35f2b95549b3
+b
+2src/main/java/refurbish/MasinarieCitireFisier.java,2\b\2bbcf21739fa34a6f656e3c5d93faf5ac01f8be2
+R
+"src/main/java/teorie/Operanzi.java,a\4\a41f67cffe8ee1f2d1781e199752c93a5c689d57
+S
+#src/main/java/teorie/Exercitiu.java,3\b\3bcce333b918cca0da71c04bb03286d0d19368c7

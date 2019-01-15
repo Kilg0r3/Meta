@@ -1,17 +1,20 @@
 package teorie;
 
-import java.security.SecureRandom;
 import java.util.*;
 
 public class Robot {
     private static final int EXECUTION_TIME = 3000;
     private ArrayList<Piesa> pieseDeAsamblat = new ArrayList<>();
     private ArrayList<Piesa> solutieIntermed1 = new ArrayList<Piesa>();
-    private ArrayList<Piesa> solIntermed2 = new ArrayList<>();
-    private ArrayList<Piesa> solutieBest = new ArrayList<>();
+    private ArrayList<Piesa> solutieIntermediara3 = new ArrayList<>();
     private ArrayList<RezultatCostCalcul> rezultate = new ArrayList<>();
     private Masinarie masina;
-    private int costTotal = 0;
+    private ArrayList<Integer> listaCosturiTotale = new ArrayList<>();
+    private ArrayList<Piesa> solIntermed2;
+    private int solutie3CostTotal = 85;
+
+    private int indexRezultate = 0;
+
 
     public ArrayList<RezultatCostCalcul> getRezultate() {
         return rezultate;
@@ -29,141 +32,79 @@ public class Robot {
         this.solutieIntermed1 = solutieIntermed1;
     }
 
-    public void calculeazaCost() {
-        costTotal = 0;
-        masina.constructModel();
-        for (Piesa p : solutieIntermed1) {
-            //getCost(p);
-            p = masina.getCost(p);
-
-            costTotal += p.getCostPiesa();
-        }
-
-        rezultate.add(new RezultatCostCalcul()
-                .costTotal(costTotal)
-                .solutiiIntermediare(solutieIntermed1));
-    }
-
-    public void show(ArrayList<Piesa> a) {
-        for (Piesa p : a) {
-            System.out.println("ID: " + p.getIdPiesa() +
-                    "; Comp prec: " + p.getPiesePrecedente() +
-                    "; Cost: " + p.getCostPiesa());
-        }
-        System.out.println("Cost total: " + costTotal);
-    }
-
-    public void showRezultate(ArrayList<RezultatCostCalcul> rezultatCostCalculs) {
-        for (RezultatCostCalcul r : rezultatCostCalculs) {
-            System.out.println("Cost Total: " + r.getCostTotal() +
-                    "\n Solutii intermediare: " + r.getSolutiiIntermediare());
-        }
-        //System.out.println("Cost total: " + costTotal);
-    }
-
-    public void showRezultatItem(RezultatCostCalcul rezultatCostCalculs) {
-
-            System.out.println("Cost Total: " + rezultatCostCalculs.getCostTotal() );
-            showSolutiiIntermediare(rezultatCostCalculs.getSolutiiIntermediare());
-
-        //System.out.println("Cost total: " + costTotal);
-    }
-    public void showSolutiiIntermediare(ArrayList<Piesa> p) {
-        System.out.println("\n Solutii intermediare: ");
-        for (Piesa piesa : p) {
-            System.out.println(piesa);
-        }
-    }
-    public void hillClimbCuPornireAleatoare() {
-
-
-        long startTime = System.currentTimeMillis();
-        long endTime = startTime + EXECUTION_TIME;
-
-        while (System.currentTimeMillis() <= endTime) {
-
-            calculeazaCost();
-            if(rezultate.get(rezultate.size()-1).getCostTotal() == 0) {
-                showRezultatItem(rezultate.get(rezultate.size()-1));
-                break;
-            }
-            Random rand = new Random();
-            int x = rand.nextInt(10);
-            int y = rand.nextInt(10);
-
-            Collections.swap(solutieIntermed1, x, y);
-
-
-        }
-
-        if(rezultate.get(rezultate.size()-1).getCostTotal() != 0) {
-            RezultatCostCalcul min = Collections.min(rezultate, new RezultatCostCalcul());
-            showRezultatItem(min);
-        }
-
-        long stoptime = System.currentTimeMillis();
-
-        System.out.println("Timp total: " + (stoptime - startTime));
-        System.out.println("Numar total de slutii: " + rezultate.size());
-        int items = rezultate.size() <= 100 ? rezultate.size() : 100;
-        for(int i=0;i<items;i++)
-        {
-            System.out.print(rezultate.get(i));
-        }
-    }
-
     public void creareSolutie() {
         for (int i = 1; i < 11; i++) {
             Piesa p = new Piesa();
             p.setIdPiesa(new Integer(i));
             solutieIntermed1.add(p);
+        }
+        //Collections.shuffle(solutieIntermed1);
+    }
+
+    public void hillClimbCuPornireAleatoare() {
+        long startTime = System.currentTimeMillis();
+        long endTime = startTime + EXECUTION_TIME;
+        int costTotal = 0;
+        ArrayList<Piesa> solIntermed2 = new ArrayList<>();
+        while (System.currentTimeMillis() <= endTime) {
+            masina.constructModel();
+            masina.setCostTotal(0);
+            
+            solIntermed2 = new ArrayList<>();
+            for (Piesa piesa:solutieIntermed1) {
+                solIntermed2.add(piesa);
+            }
+            for (Piesa p : solIntermed2) {
+                masina.calcCostTotal(p);
+            }
+            costTotal = masina.getCostTotal();
+
+            if(costTotal<solutie3CostTotal) {
+                solutie3CostTotal = costTotal;
+                solutieIntermediara3 = new ArrayList<>();
+                for (Piesa piesa: solIntermed2) {
+                    solutieIntermediara3.add(piesa);
+                }
+            }
+
+
+            /*if(costTotal == 0) {
+                System.out.println("Cost total: " + solutie3CostTotal);
+                System.out.println("Best solution: " + solutieIntermediara3);
+                break;
+
+            }*/
+            System.out.println("Cost total: " + costTotal);
+            System.out.println("Solutie intermediara: " + solIntermed2);
+
+            Random rand = new Random();
+            int x = rand.nextInt(10);
+            int y = rand.nextInt(10);
+            Collections.swap(solutieIntermed1, x, y);
 
         }
-        Collections.shuffle(solutieIntermed1);
-    }
-
-    /*public int calculeazaCost2() {
-
-        Random r = new Random();
-
-        int x = r.nextInt(10);
-        int y = r.nextInt(10);
-
-        solIntermed2 = solutieIntermed1;
-        costTotal = 0;
-        Collections.swap(solIntermed2, x, y);
-        for (Piesa p : solIntermed2) {
-            p = masina.getCost(p);
-
-            costTotal += p.getCostPiesa();
+        if(costTotal != 0) {
+            System.out.println("Cost total: " + solutie3CostTotal);
+            System.out.println("Best solution: " + solutieIntermediara3);
         }
-        //masina.defaultCost();
-        return costTotal;
-    }*/
 
+        long stoptime = System.currentTimeMillis();
+        afisareRezumatSolutie(startTime, stoptime);
+        /*if(rezultate.get(rezultate.size()-1).getCostTotal() != 0) {
+            //RezultatCostCalcul min = Collections.min(rezultate, new RezultatCostCalcul());
+            System.out.print("Minimul: ");
+            //showRezultatItem(min);
+        }*/
 
-    public ArrayList<Piesa> getSolutieBest() {
-        return solutieBest;
+        afisareZeceRezultate();
     }
 
-    public void setSolutieBest(ArrayList<Piesa> solutieBest) {
-        this.solutieBest = solutieBest;
+    public ArrayList<Piesa> getSolutieIntermediara3() {
+        return solutieIntermediara3;
     }
 
-    public int getCostTotal() {
-        return costTotal;
-    }
-
-    public void setCostTotal(int costTotal) {
-        this.costTotal = costTotal;
-    }
-
-    public ArrayList<Piesa> getSolIntermed2() {
-        return solIntermed2;
-    }
-
-    public void setSolIntermed2(ArrayList<Piesa> solIntermed2) {
-        this.solIntermed2 = solIntermed2;
+    public void setSolutieIntermediara3(ArrayList<Piesa> solutieIntermediara3) {
+        this.solutieIntermediara3 = solutieIntermediara3;
     }
 
     public Masinarie getMasina() {
@@ -182,19 +123,64 @@ public class Robot {
         this.pieseDeAsamblat = pieseDeAsamblat;
     }
 
+    private void calculeazaCost() {
 
-    public void Show2() {
-        for (Piesa z : solutieIntermed1
-        ) {
-            System.out.println("ID: " + z.getIdPiesa() +
-                    "; Comp prec: " + z.getPiesePrecedente() +
-                    "; Cost: " + z.getCostPiesa());
+        masina.constructModel();
+        masina.setCostTotal(0);
+        ArrayList<Piesa> solIntermed2 = new ArrayList<>();
+        for (Piesa piesa:solutieIntermed1) {
+            solIntermed2.add(piesa);
+        }
+        for (Piesa p : solIntermed2) {
+            masina.calcCostTotal(p);
+        }
+        int costTotal = masina.getCostTotal();
+        //if(indexRezultate <=10) {
+            indexRezultate++;
+            //System.out.println("Cost total: " + costTotal);
+            //System.out.println("SOLUTIE: " + solIntermed2);
+
+            listaCosturiTotale.add(costTotal);
+
+
+                System.out.println("Cost total: " + costTotal);
+                System.out.println("Solutie intermediara: " + solIntermed2);
+
+
+            /*RezultatCostCalcul rezultatCostCalcul = new RezultatCostCalcul();
+            rezultatCostCalcul.setCostTotal(costTotal);
+            rezultatCostCalcul.setSolutiiIntermediare(solIntermed2);
+            rezultate.add(rezultatCostCalcul);*/
+        //}
+    }
+
+    private void showRezultatItem(RezultatCostCalcul rezultatCostCalculs) {
+        System.out.println();
+        System.out.println("Cost Total: " + rezultatCostCalculs.getCostTotal() );
+        showSolutiiIntermediare(rezultatCostCalculs.getSolutiiIntermediare());
+
+        //System.out.println("Cost total: " + costTotal);
+    }
+
+    private void showSolutiiIntermediare(ArrayList<Piesa> p) {
+        System.out.println("Solutii intermediare: ");
+        for (Piesa piesa : p) {
+            System.out.println(piesa);
         }
     }
 
-
-    public void Calc() {
-
-
+    private void afisareRezumatSolutie(long startTime, long stoptime) {
+        System.out.println("Timp total: " + (stoptime - startTime));
+        System.out.println("Numar total de solutii: " + rezultate.size());
     }
+
+    private void afisareZeceRezultate() {
+        int items = rezultate.size() <= 10 ? rezultate.size() : 10;
+        //System.out.println();
+        for(int i=0;i<items;i++)
+        {
+            showRezultatItem(rezultate.get(i));
+        }
+    }
+
 }

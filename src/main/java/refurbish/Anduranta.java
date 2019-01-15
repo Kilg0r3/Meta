@@ -24,7 +24,7 @@ public class Anduranta {
         //masina.defaultCost();
         //Show(masina.getModel());
         //calculeazaCost();
-        //show(solutieIntermed1);
+        //afisareModelInitial(solutieIntermed1);
         //
         //Show(masina.getModel());
     }

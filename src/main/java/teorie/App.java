@@ -21,25 +21,22 @@ public class App
         //porneste cronometru
 
         Masinarie masina = new Masinarie();
-        masina.constructModel();
-        masina.show(masina.getModel());
+        //masina.constructModel();
+        masina.afisareModelInitial(masina.getModel());
 
         Robot r = new Robot();
         r.setMasina(masina);
         r.creareSolutie();
-        //r.show(r.getSolutieIntermed1());
+
         r.hillClimbCuPornireAleatoare();
+        //System.out.println("\n" + masina.getCostTotal());
 
 
-        //r.show((r.getSolutieIntermed1()));
-        //r.show(masina.getModelInProcesare());
+
+
         //masina.defaultCost();
         //r.calculeazaCost2();
-        //r.show(r.getSolIntermed2());
 
-
-
-        //r.show(masina.getModel());
         //r.asambleaza();
 
 
@@ -68,7 +65,7 @@ public class App
         masina.defaultCost();
         Show(masina.getModel());
         //calculeazaCost();
-        //show(solutieIntermed1);
+        //afisareModelInitial(solutieIntermed1);
         //
         Show(masina.getModel());
     }*/

@@ -3,7 +3,6 @@ package refurbish;
 import teorie.Piesa;
 
 import java.util.ArrayList;
-import java.util.Collections;
 
 public class Trial {
     ArrayList<Piesa>Referinta = new ArrayList<Piesa>();
@@ -26,7 +25,7 @@ public class Trial {
         show2();
 
         test();
-        System.out.println("Cost total:" + costTotal + "\n\n\n");
+        //System.out.println("Cost total:" + costTotal + "\n\n\n");
         show();
     }
 

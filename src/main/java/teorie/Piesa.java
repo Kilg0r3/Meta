@@ -5,7 +5,6 @@ import java.util.ArrayList;
 public class Piesa {
     private int idPiesa;
     private int costPiesa;
-
     private ArrayList<Integer> piesePrecedente = new ArrayList<Integer>();
 
     public ArrayList<Integer> getPiesePrecedente() {

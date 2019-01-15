@@ -2,20 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e5e404f3-903c-4f08-b4d7-5763d28707f6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/teorie/RezultatCostCalcul.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/refurbish/MasinarieCitireFisier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/teorie/Exercitiu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/teorie/Operanzi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/7/173dc731bfb74daab96f53674522cc020fb9d490" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/7/173dc731bfb74daab96f53674522cc020fb9d490" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/1/311138d0f160730899b9cd489f8d0d41a8452c82" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/1/311138d0f160730899b9cd489f8d0d41a8452c82" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/e/6ef5b807f49fe52563819c2b43b38040fa55cc72" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/e/6ef5b807f49fe52563819c2b43b38040fa55cc72" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/3/939726c0930cd9c987ff23a44e0b591c6baa2dc5" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/3/939726c0930cd9c987ff23a44e0b591c6baa2dc5" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/7/b79c4960b6932c39bd323c7ac2ebaefe2563d8c7" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/7/b79c4960b6932c39bd323c7ac2ebaefe2563d8c7" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/9/c9e00381c9a96fff30d0e614b4dd9a62754cbeec" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/9/c9e00381c9a96fff30d0e614b4dd9a62754cbeec" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/7/e71941cea10d2d878d9977e035665ec6626f1ac7" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/7/e71941cea10d2d878d9977e035665ec6626f1ac7" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/refurbish/Anduranta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/refurbish/Anduranta.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/refurbish/Trial.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/refurbish/Trial.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/teorie/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/teorie/App.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/teorie/Masinarie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/teorie/Masinarie.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/teorie/Piesa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/teorie/Piesa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/teorie/RezultatCostCalcul.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/teorie/RezultatCostCalcul.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/teorie/Robot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/teorie/Robot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/teorie/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/teorie/AppTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/teorie/RobotTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/teorie/RobotTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/refurbish/Trial.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/refurbish/Trial.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/teorie/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/teorie/App.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/teorie/Masinarie.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/teorie/Masinarie.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/teorie/Piesa.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/teorie/Piesa.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/teorie/RezultatCostCalcul.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/teorie/RezultatCostCalcul.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/teorie/Robot.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/teorie/Robot.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/teorie/AppTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/teorie/AppTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/teorie/RobotTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/teorie/RobotTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -38,26 +50,30 @@
     <session id="1979530461">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="7" />
+          <entry key="project.closed" value="15" />
           <entry key="project.open.time.15" value="1" />
           <entry key="project.open.time.16" value="1" />
-          <entry key="project.open.time.17" value="1" />
+          <entry key="project.open.time.17" value="3" />
+          <entry key="project.open.time.18" value="1" />
+          <entry key="project.open.time.19" value="1" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.6" value="2" />
-          <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="8" />
+          <entry key="project.open.time.7" value="2" />
+          <entry key="project.open.time.8" value="3" />
+          <entry key="project.opened" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="24" />
+          <entry key="JAVA" value="34" />
+          <entry key="PLAIN_TEXT" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="9068" />
-          <entry key="PLAIN_TEXT" value="14" />
+          <entry key="JAVA" value="12929" />
+          <entry key="PLAIN_TEXT" value="26" />
         </counts>
       </usages-collector>
     </session>
@@ -67,21 +83,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/teorie/App.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="30" selection-start-line="30" selection-end-line="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/teorie/AppTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="28" column="74" selection-start-line="28" selection-start-column="74" selection-end-line="28" selection-end-column="74" />
-              <folding>
-                <element signature="e#240#241#0" expanded="true" />
-                <element signature="e#274#275#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="459">
+              <caret line="27" column="10" selection-start-line="27" selection-start-column="10" selection-end-line="27" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -89,45 +92,12 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/teorie/Masinarie.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1343">
-              <caret line="92" column="21" selection-start-line="92" selection-start-column="21" selection-end-line="92" selection-end-column="21" />
+            <state relative-caret-position="153">
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#365#366#0" expanded="true" />
-                <element signature="e#397#398#0" expanded="true" />
-                <element signature="e#457#458#0" expanded="true" />
-                <element signature="e#499#500#0" expanded="true" />
+                <element signature="e#265#266#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/util/ArrayList.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="10506">
-              <caret line="656" selection-start-line="656" selection-end-line="656" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/refurbish/Trial.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/refurbish/GenNrAleator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -135,8 +105,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/teorie/Piesa.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="26" column="15" selection-start-line="26" selection-start-column="15" selection-end-line="26" selection-end-column="15" />
+            <state relative-caret-position="119">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
             </state>
           </provider>
         </entry>
@@ -144,8 +114,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/teorie/RobotTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="36" column="15" selection-start-line="36" selection-start-column="15" selection-end-line="36" selection-end-column="15" />
+            <state relative-caret-position="459">
+              <caret line="32" column="14" selection-start-line="32" selection-start-column="14" selection-end-line="32" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -153,12 +123,31 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/teorie/Robot.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="127">
-              <caret line="31" column="16" selection-start-line="31" selection-start-column="16" selection-end-line="31" selection-end-column="16" />
+            <state relative-caret-position="259">
+              <caret line="88" column="9" lean-forward="true" selection-start-line="88" selection-start-column="9" selection-end-line="88" selection-end-column="9" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#Show2#0;class#Robot#0" />
+                <element signature="e#3436#3437#0" expanded="true" />
+                <element signature="e#3479#3480#0" expanded="true" />
+                <element signature="e#3661#3662#0" expanded="true" />
+                <element signature="e#3690#3691#0" expanded="true" />
+                <element signature="e#3737#3738#0" expanded="true" />
+                <element signature="e#3773#3774#0" expanded="true" />
+                <element signature="e#3825#3826#0" expanded="true" />
+                <element signature="e#3863#3864#0" expanded="true" />
+                <element signature="e#3935#3936#0" expanded="true" />
+                <element signature="e#3989#3990#0" expanded="true" />
+                <element signature="method#calculeazaCost#0;class#Robot#0" />
+                <element signature="method#afisareRezumatSolutie#0;class#Robot#0" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/util/Collections.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="7684">
+              <caret line="491" column="34" selection-start-line="491" selection-start-column="33" selection-end-line="491" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -166,14 +155,51 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/teorie/RezultatCostCalcul.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="18" column="30" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
+            <state relative-caret-position="714">
+              <caret line="49" column="7" selection-start-line="49" selection-start-column="7" selection-end-line="49" selection-end-column="7" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#268#269#0" expanded="true" />
-                <element signature="e#300#301#0" expanded="true" />
-                <element signature="e#351#352#0" expanded="true" />
-                <element signature="e#393#394#0" expanded="true" />
+                <element signature="e#272#273#0" expanded="true" />
+                <element signature="e#304#305#0" expanded="true" />
+                <element signature="e#355#356#0" expanded="true" />
+                <element signature="e#397#398#0" expanded="true" />
+                <element signature="e#578#579#0" expanded="true" />
+                <element signature="e#620#621#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/teorie/Exercitiu.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="22" column="18" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/teorie/Operanzi.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
+              <folding>
+                <element signature="e#128#129#0" expanded="true" />
+                <element signature="e#152#153#0" expanded="true" />
+                <element signature="e#183#184#0" expanded="true" />
+                <element signature="e#209#210#0" expanded="true" />
+                <element signature="e#234#235#0" expanded="true" />
+                <element signature="e#258#259#0" expanded="true" />
+                <element signature="e#289#290#0" expanded="true" />
+                <element signature="e#315#316#0" expanded="true" />
+                <element signature="e#347#348#0" expanded="true" />
+                <element signature="e#378#379#0" expanded="true" />
+                <element signature="e#423#424#0" expanded="true" />
+                <element signature="e#463#464#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -193,6 +219,15 @@
     <findStrings>
       <find>for(int i</find>
       <find>for(</find>
+      <find>hill</find>
+      <find>creare</find>
+      <find>solutii I</find>
+      <find>Sys</find>
+      <find>showRezultate</find>
+      <find>show</find>
+      <find>show(</find>
+      <find>Show2()</find>
+      <find>total()</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -208,17 +243,21 @@
         <option value="$PROJECT_DIR$/src/main/java/teorie/Anduranta.java" />
         <option value="$PROJECT_DIR$/src/main/java/Refurbish/Anduranta.java" />
         <option value="$PROJECT_DIR$/src/main/java/refurbish/Anduranta.java" />
-        <option value="$PROJECT_DIR$/src/main/java/refurbish/Trial.java" />
         <option value="$PROJECT_DIR$/src/main/java/refurbish/GenNrAleator.java" />
         <option value="$PROJECT_DIR$/src/test/java/teorie/MasinarieTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/teorie/AppTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/teorie/RobotTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/teorie/Rezultate.java" />
-        <option value="$PROJECT_DIR$/src/main/java/teorie/RezultatCostCalcul.java" />
-        <option value="$PROJECT_DIR$/src/main/java/teorie/App.java" />
+        <option value="$PROJECT_DIR$/src/main/java/refurbish/Trial.java" />
+        <option value="$PROJECT_DIR$/src/test/java/teorie/RobotTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/refurbish/MasinarieCitireFisier.java" />
         <option value="$PROJECT_DIR$/src/main/java/teorie/Piesa.java" />
-        <option value="$PROJECT_DIR$/src/main/java/teorie/Robot.java" />
+        <option value="$PROJECT_DIR$/src/main/java/teorie/App.java" />
         <option value="$PROJECT_DIR$/src/main/java/teorie/Masinarie.java" />
+        <option value="$PROJECT_DIR$/src/main/java/teorie/Operanzi.java" />
+        <option value="$PROJECT_DIR$/src/main/java/teorie/Exercitiu.java" />
+        <option value="$PROJECT_DIR$/src/main/java/teorie/RezultatCostCalcul.java" />
+        <option value="$APPLICATION_CONFIG_DIR$/idea64.exe.vmoptions" />
+        <option value="$PROJECT_DIR$/src/main/java/teorie/Robot.java" />
       </list>
     </option>
   </component>
@@ -230,7 +269,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="951" />
+    <option name="x" value="-9" />
     <option name="width" value="978" />
     <option name="height" value="1050" />
   </component>
@@ -240,6 +279,51 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope">
+        <subPane subId="Scope 'Changed Files'; set:Changed Files; ALL; class com.intellij.packageDependencies.ChangeListScope">
+          <expand>
+            <path>
+              <item name="t1" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="t1" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+            </path>
+            <path>
+              <item name="t1" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="t1" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="t1" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="t1" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="t1" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="t1" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="t1" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="t1" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="refurbish" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="t1" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="t1" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="teorie" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -271,27 +355,18 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="refurbish" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="t1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="t1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="teorie" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SONARLINT_ISSUES_SPLIT_PROPORTION" value="0.3983573" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547423288472" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547592317459" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="extract.method.default.visibility" value="public" />
@@ -325,6 +400,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="refurbish.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Exercitiu" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="teorie.Exercitiu" />
+      <module name="t1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="teorie.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -383,10 +471,12 @@
       <item itemvalue="JUnit.RobotTest" />
       <item itemvalue="JUnit.RobotTest.givenEmptyPieceListForCalculeazaCost_ExpectCostTotal0" />
       <item itemvalue="JUnit.RobotTest.givenPieceListForCalculeazaCost_ExpectCostTotal10" />
+      <item itemvalue="Application.Exercitiu" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.App" />
+        <item itemvalue="Application.Exercitiu" />
         <item itemvalue="JUnit.RobotTest" />
         <item itemvalue="JUnit.RobotTest.givenPieceListForCalculeazaCost_ExpectCostTotal10" />
         <item itemvalue="JUnit.RobotTest.givenEmptyPieceListForCalculeazaCost_ExpectCostTotal0" />
@@ -440,27 +530,26 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.25407925" weight="0.16442953" />
-      <window_info id="Structure" order="1" sideWeight="0.7459207" side_tool="true" weight="0.16442953" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.25322998" weight="0.3362416" />
+      <window_info id="Structure" order="1" sideWeight="0.74807197" side_tool="true" weight="0.3362416" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32867134" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49731544" weight="0.27023122" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.38294798" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32658958" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49731544" visible="true" weight="0.27745664" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.21242775" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32947975" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5026846" side_tool="true" weight="0.32867134" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32867134" />
-      <window_info anchor="bottom" id="SonarLint" order="11" weight="0.58815026" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32658958" />
+      <window_info anchor="bottom" id="SonarLint" order="11" weight="0.13872832" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24966443" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -472,24 +561,25 @@
       <window_info anchor="right" id="Coverage" order="8" side_tool="true" weight="0.3295302" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.25407925" weight="0.16442953" />
-      <window_info id="Structure" order="1" sideWeight="0.7459207" side_tool="true" weight="0.16442953" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.25322998" weight="0.3362416" />
+      <window_info id="Structure" order="1" sideWeight="0.74807197" side_tool="true" weight="0.3362416" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32867134" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49731544" weight="0.33959538" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.54046243" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32658958" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49731544" visible="true" weight="0.27745664" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.21242775" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32947975" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5026846" side_tool="true" weight="0.32867134" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32867134" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32658958" />
+      <window_info anchor="bottom" id="SonarLint" order="11" weight="0.13872832" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24966443" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -509,54 +599,17 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/teorie/Robot.java</url>
-          <line>121</line>
+          <line>152</line>
           <properties />
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/teorie/Robot.java</url>
-          <line>52</line>
-          <properties />
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/teorie/Robot.java</url>
-          <line>84</line>
-          <properties />
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/teorie/Robot.java</url>
-          <line>41</line>
-          <properties />
-          <option name="timeStamp" value="12" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/teorie/Robot.java</url>
-          <line>93</line>
-          <properties />
-          <option name="timeStamp" value="13" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/teorie/Robot.java</url>
-          <line>38</line>
-          <properties />
-          <option name="timeStamp" value="20" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/teorie/Robot.java</url>
-          <line>36</line>
-          <properties />
-          <option name="timeStamp" value="21" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/teorie/Robot.java</url>
-          <line>100</line>
-          <properties />
-          <option name="timeStamp" value="22" />
+          <option name="timeStamp" value="35" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="solIntermed2" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -595,13 +648,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/refurbish/Anduranta.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="11" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/util/TimerTask.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="151">
@@ -616,52 +662,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/teorie/App.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="30" selection-start-line="30" selection-end-line="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/teorie/AppTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
           <caret line="28" column="74" selection-start-line="28" selection-start-column="74" selection-end-line="28" selection-end-column="74" />
-          <folding>
-            <element signature="e#240#241#0" expanded="true" />
-            <element signature="e#274#275#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/teorie/Masinarie.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1343">
-          <caret line="92" column="21" selection-start-line="92" selection-start-column="21" selection-end-line="92" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#365#366#0" expanded="true" />
-            <element signature="e#397#398#0" expanded="true" />
-            <element signature="e#457#458#0" expanded="true" />
-            <element signature="e#499#500#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/util/ArrayList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="10506">
-          <caret line="656" selection-start-line="656" selection-end-line="656" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/refurbish/Trial.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -672,65 +676,144 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/refurbish/Trial.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="27" column="19" lean-forward="true" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/refurbish/MasinarieCitireFisier.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="15" column="10" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/refurbish/Anduranta.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="11" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="610">
+          <caret line="611" column="25" selection-start-line="611" selection-start-column="25" selection-end-line="611" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/teorie/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="10" selection-start-line="27" selection-start-column="10" selection-end-line="27" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/teorie/Masinarie.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#265#266#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/teorie/Piesa.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="26" column="15" selection-start-line="26" selection-start-column="15" selection-end-line="26" selection-end-column="15" />
+        <state relative-caret-position="119">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/teorie/RobotTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="36" column="15" selection-start-line="36" selection-start-column="15" selection-end-line="36" selection-end-column="15" />
+        <state relative-caret-position="459">
+          <caret line="32" column="14" selection-start-line="32" selection-start-column="14" selection-end-line="32" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/util/Collections.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7684">
+          <caret line="491" column="34" selection-start-line="491" selection-start-column="33" selection-end-line="491" selection-end-column="34" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/teorie/RezultatCostCalcul.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="18" column="30" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
+        <state relative-caret-position="714">
+          <caret line="49" column="7" selection-start-line="49" selection-start-column="7" selection-end-line="49" selection-end-column="7" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#268#269#0" expanded="true" />
-            <element signature="e#300#301#0" expanded="true" />
-            <element signature="e#351#352#0" expanded="true" />
-            <element signature="e#393#394#0" expanded="true" />
+            <element signature="e#272#273#0" expanded="true" />
+            <element signature="e#304#305#0" expanded="true" />
+            <element signature="e#355#356#0" expanded="true" />
+            <element signature="e#397#398#0" expanded="true" />
+            <element signature="e#578#579#0" expanded="true" />
+            <element signature="e#620#621#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/teorie/Exercitiu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="22" column="18" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/teorie/Operanzi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <element signature="e#128#129#0" expanded="true" />
+            <element signature="e#152#153#0" expanded="true" />
+            <element signature="e#183#184#0" expanded="true" />
+            <element signature="e#209#210#0" expanded="true" />
+            <element signature="e#234#235#0" expanded="true" />
+            <element signature="e#258#259#0" expanded="true" />
+            <element signature="e#289#290#0" expanded="true" />
+            <element signature="e#315#316#0" expanded="true" />
+            <element signature="e#347#348#0" expanded="true" />
+            <element signature="e#378#379#0" expanded="true" />
+            <element signature="e#423#424#0" expanded="true" />
+            <element signature="e#463#464#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/idea64.exe.vmoptions">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="5" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/teorie/Robot.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="31" column="16" selection-start-line="31" selection-start-column="16" selection-end-line="31" selection-end-column="16" />
+        <state relative-caret-position="259">
+          <caret line="88" column="9" lean-forward="true" selection-start-line="88" selection-start-column="9" selection-end-line="88" selection-end-column="9" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#513#514#0" expanded="true" />
-            <element signature="e#545#546#0" expanded="true" />
-            <element signature="e#618#619#0" expanded="true" />
-            <element signature="e#660#661#0" expanded="true" />
-            <element signature="e#4468#4469#0" expanded="true" />
-            <element signature="e#4502#4503#0" expanded="true" />
-            <element signature="e#4566#4567#0" expanded="true" />
-            <element signature="e#4612#4613#0" expanded="true" />
-            <element signature="e#4645#4646#0" expanded="true" />
-            <element signature="e#4677#4678#0" expanded="true" />
-            <element signature="e#4724#4725#0" expanded="true" />
-            <element signature="e#4766#4767#0" expanded="true" />
-            <element signature="e#4815#4816#0" expanded="true" />
-            <element signature="e#4850#4851#0" expanded="true" />
-            <element signature="e#4916#4917#0" expanded="true" />
-            <element signature="e#4964#4965#0" expanded="true" />
-            <element signature="e#5000#5001#0" expanded="true" />
-            <element signature="e#5029#5030#0" expanded="true" />
-            <element signature="e#5076#5077#0" expanded="true" />
-            <element signature="e#5112#5113#0" expanded="true" />
-            <element signature="e#5164#5165#0" expanded="true" />
-            <element signature="e#5202#5203#0" expanded="true" />
-            <element signature="e#5274#5275#0" expanded="true" />
-            <element signature="e#5328#5329#0" expanded="true" />
-            <element signature="method#Show2#0;class#Robot#0" />
+            <element signature="e#3436#3437#0" expanded="true" />
+            <element signature="e#3479#3480#0" expanded="true" />
+            <element signature="e#3661#3662#0" expanded="true" />
+            <element signature="e#3690#3691#0" expanded="true" />
+            <element signature="e#3737#3738#0" expanded="true" />
+            <element signature="e#3773#3774#0" expanded="true" />
+            <element signature="e#3825#3826#0" expanded="true" />
+            <element signature="e#3863#3864#0" expanded="true" />
+            <element signature="e#3935#3936#0" expanded="true" />
+            <element signature="e#3989#3990#0" expanded="true" />
+            <element signature="method#calculeazaCost#0;class#Robot#0" />
+            <element signature="method#afisareRezumatSolutie#0;class#Robot#0" />
           </folding>
         </state>
       </provider>

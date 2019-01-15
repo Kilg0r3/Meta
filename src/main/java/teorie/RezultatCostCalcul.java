@@ -3,7 +3,7 @@ package teorie;
 import java.util.ArrayList;
 import java.util.Comparator;
 
-public class RezultatCostCalcul implements Comparator<RezultatCostCalcul> {
+public class RezultatCostCalcul /*implements Comparator<RezultatCostCalcul>*/ {
     private Integer costTotal;
     private ArrayList<Piesa> solutiiIntermediare;
 
@@ -42,10 +42,10 @@ public class RezultatCostCalcul implements Comparator<RezultatCostCalcul> {
                 '}';
     }
 
-
+/*
     @Override
     public int compare(RezultatCostCalcul o1, RezultatCostCalcul o2) {
         return o1.getCostTotal().compareTo(o2.getCostTotal());
 
-    }
+    }*/
 }
