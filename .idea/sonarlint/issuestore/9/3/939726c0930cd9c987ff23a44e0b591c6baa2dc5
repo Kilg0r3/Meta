@@ -1,5 +1,5 @@
 
-šsquid:S1319"~The type of the "solutiiIntermediare" object should be an interface such as "List" rather than the implementation "ArrayList".(³Œ†ÿþÿÿÿÿ
+isquid:CommentedOutCodeLine/"<This block of commented-out lines of code should be removed.(íõÅæ8é‹Ô›…-
 ‡squid:S1319"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(Æ•’Ê
 •squid:S1319 "~The type of the "solutiiIntermediare" object should be an interface such as "List" rather than the implementation "ArrayList".(¡Ñ’
-isquid:CommentedOutCodeLine/"<This block of commented-out lines of code should be removed.(íõÅæ8é‹Ô›…-
+šsquid:S1319"~The type of the "solutiiIntermediare" object should be an interface such as "List" rather than the implementation "ArrayList".(³Œ†ÿþÿÿÿÿ
