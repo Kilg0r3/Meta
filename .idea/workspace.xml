@@ -2,33 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e5e404f3-903c-4f08-b4d7-5763d28707f6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/refurbish/MasinarieCitireFisier.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/teorie/Exercitiu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/teorie/Operanzi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/7/173dc731bfb74daab96f53674522cc020fb9d490" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/7/173dc731bfb74daab96f53674522cc020fb9d490" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/1/311138d0f160730899b9cd489f8d0d41a8452c82" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/1/311138d0f160730899b9cd489f8d0d41a8452c82" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/e/6ef5b807f49fe52563819c2b43b38040fa55cc72" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/e/6ef5b807f49fe52563819c2b43b38040fa55cc72" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/3/939726c0930cd9c987ff23a44e0b591c6baa2dc5" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/3/939726c0930cd9c987ff23a44e0b591c6baa2dc5" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/7/b79c4960b6932c39bd323c7ac2ebaefe2563d8c7" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/7/b79c4960b6932c39bd323c7ac2ebaefe2563d8c7" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/9/c9e00381c9a96fff30d0e614b4dd9a62754cbeec" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/9/c9e00381c9a96fff30d0e614b4dd9a62754cbeec" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/7/e71941cea10d2d878d9977e035665ec6626f1ac7" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/7/e71941cea10d2d878d9977e035665ec6626f1ac7" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/refurbish/Anduranta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/refurbish/Anduranta.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/refurbish/Trial.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/refurbish/Trial.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/teorie/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/teorie/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/teorie/Masinarie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/teorie/Masinarie.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/teorie/Piesa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/teorie/Piesa.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/teorie/RezultatCostCalcul.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/teorie/RezultatCostCalcul.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/teorie/Robot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/teorie/Robot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/teorie/RobotTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/teorie/RobotTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/refurbish/Trial.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/refurbish/Trial.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/teorie/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/teorie/App.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/teorie/Masinarie.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/teorie/Masinarie.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/teorie/Piesa.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/teorie/Piesa.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/teorie/RezultatCostCalcul.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/teorie/RezultatCostCalcul.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/teorie/Robot.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/teorie/Robot.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/teorie/RobotTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/teorie/RobotTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -72,7 +46,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="12929" />
+          <entry key="JAVA" value="13437" />
           <entry key="PLAIN_TEXT" value="26" />
         </counts>
       </usages-collector>
@@ -123,21 +97,20 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/teorie/Robot.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="259">
-              <caret line="88" column="9" lean-forward="true" selection-start-line="88" selection-start-column="9" selection-end-line="88" selection-end-column="9" />
+            <state relative-caret-position="217">
+              <caret line="176" column="100" selection-start-line="176" selection-start-column="100" selection-end-line="176" selection-end-column="100" />
               <folding>
-                <element signature="e#3436#3437#0" expanded="true" />
-                <element signature="e#3479#3480#0" expanded="true" />
-                <element signature="e#3661#3662#0" expanded="true" />
-                <element signature="e#3690#3691#0" expanded="true" />
-                <element signature="e#3737#3738#0" expanded="true" />
-                <element signature="e#3773#3774#0" expanded="true" />
-                <element signature="e#3825#3826#0" expanded="true" />
-                <element signature="e#3863#3864#0" expanded="true" />
-                <element signature="e#3935#3936#0" expanded="true" />
-                <element signature="e#3989#3990#0" expanded="true" />
+                <element signature="method#creareSolutie#0;class#Robot#0" />
+                <element signature="e#3746#3747#0" expanded="true" />
+                <element signature="e#3775#3776#0" expanded="true" />
+                <element signature="e#3822#3823#0" expanded="true" />
+                <element signature="e#3858#3859#0" expanded="true" />
+                <element signature="e#3910#3911#0" expanded="true" />
+                <element signature="e#3948#3949#0" expanded="true" />
+                <element signature="e#4020#4021#0" expanded="true" />
+                <element signature="e#4074#4075#0" expanded="true" />
                 <element signature="method#calculeazaCost#0;class#Robot#0" />
-                <element signature="method#afisareRezumatSolutie#0;class#Robot#0" />
+                <element signature="method#afisareZeceRezultate#0;class#Robot#0" />
               </folding>
             </state>
           </provider>
@@ -366,7 +339,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SONARLINT_ISSUES_SPLIT_PROPORTION" value="0.3983573" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547592317459" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547597693006" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="extract.method.default.visibility" value="public" />
@@ -530,6 +503,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.25322998" weight="0.3362416" />
       <window_info id="Structure" order="1" sideWeight="0.74807197" side_tool="true" weight="0.3362416" />
@@ -599,9 +573,15 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/teorie/Robot.java</url>
-          <line>152</line>
+          <line>155</line>
           <properties />
           <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/teorie/Robot.java</url>
+          <line>175</line>
+          <properties />
+          <option name="timeStamp" value="36" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -799,21 +779,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/teorie/Robot.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="88" column="9" lean-forward="true" selection-start-line="88" selection-start-column="9" selection-end-line="88" selection-end-column="9" />
+        <state relative-caret-position="217">
+          <caret line="176" column="100" selection-start-line="176" selection-start-column="100" selection-end-line="176" selection-end-column="100" />
           <folding>
-            <element signature="e#3436#3437#0" expanded="true" />
-            <element signature="e#3479#3480#0" expanded="true" />
-            <element signature="e#3661#3662#0" expanded="true" />
-            <element signature="e#3690#3691#0" expanded="true" />
-            <element signature="e#3737#3738#0" expanded="true" />
-            <element signature="e#3773#3774#0" expanded="true" />
-            <element signature="e#3825#3826#0" expanded="true" />
-            <element signature="e#3863#3864#0" expanded="true" />
-            <element signature="e#3935#3936#0" expanded="true" />
-            <element signature="e#3989#3990#0" expanded="true" />
+            <element signature="method#creareSolutie#0;class#Robot#0" />
+            <element signature="e#3746#3747#0" expanded="true" />
+            <element signature="e#3775#3776#0" expanded="true" />
+            <element signature="e#3822#3823#0" expanded="true" />
+            <element signature="e#3858#3859#0" expanded="true" />
+            <element signature="e#3910#3911#0" expanded="true" />
+            <element signature="e#3948#3949#0" expanded="true" />
+            <element signature="e#4020#4021#0" expanded="true" />
+            <element signature="e#4074#4075#0" expanded="true" />
             <element signature="method#calculeazaCost#0;class#Robot#0" />
-            <element signature="method#afisareRezumatSolutie#0;class#Robot#0" />
+            <element signature="method#afisareZeceRezultate#0;class#Robot#0" />
           </folding>
         </state>
       </provider>

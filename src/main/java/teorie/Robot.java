@@ -6,7 +6,9 @@ public class Robot {
     private static final int EXECUTION_TIME = 3000;
     private ArrayList<Piesa> pieseDeAsamblat = new ArrayList<>();
     private ArrayList<Piesa> solutieIntermed1 = new ArrayList<Piesa>();
+    //private Map<Integer, ArrayList<Piesa>>  solutieIntermediara3 = new LinkedHashMap<>();
     private ArrayList<Piesa> solutieIntermediara3 = new ArrayList<>();
+
     private ArrayList<RezultatCostCalcul> rezultate = new ArrayList<>();
     private Masinarie masina;
     private ArrayList<Integer> listaCosturiTotale = new ArrayList<>();
@@ -45,15 +47,18 @@ public class Robot {
         long startTime = System.currentTimeMillis();
         long endTime = startTime + EXECUTION_TIME;
         int costTotal = 0;
+        int count = 0;
+        int count2 = 0;
         ArrayList<Piesa> solIntermed2 = new ArrayList<>();
         while (System.currentTimeMillis() <= endTime) {
             masina.constructModel();
             masina.setCostTotal(0);
-            
+            count++;
             solIntermed2 = new ArrayList<>();
-            for (Piesa piesa:solutieIntermed1) {
+            /*for (Piesa piesa:solutieIntermed1) {
                 solIntermed2.add(piesa);
-            }
+            }*/
+            solIntermed2.addAll(solutieIntermed1);
             for (Piesa p : solIntermed2) {
                 masina.calcCostTotal(p);
             }
@@ -62,9 +67,8 @@ public class Robot {
             if(costTotal<solutie3CostTotal) {
                 solutie3CostTotal = costTotal;
                 solutieIntermediara3 = new ArrayList<>();
-                for (Piesa piesa: solIntermed2) {
-                    solutieIntermediara3.add(piesa);
-                }
+                solutieIntermediara3.addAll(solIntermed2);
+                count2++;
             }
 
 
@@ -74,8 +78,8 @@ public class Robot {
                 break;
 
             }*/
-            System.out.println("Cost total: " + costTotal);
-            System.out.println("Solutie intermediara: " + solIntermed2);
+            //System.out.println("Cost total: " + costTotal);
+            //System.out.println("Solutie intermediara: " + solIntermed2);
 
             Random rand = new Random();
             int x = rand.nextInt(10);
@@ -84,28 +88,27 @@ public class Robot {
 
         }
         if(costTotal != 0) {
-            System.out.println("Cost total: " + solutie3CostTotal);
+            System.out.println("Cost total: " + costTotal);
             System.out.println("Best solution: " + solutieIntermediara3);
         }
 
         long stoptime = System.currentTimeMillis();
-        afisareRezumatSolutie(startTime, stoptime);
+        afisareRezumatSolutie(startTime, stoptime, count, count2);
+
         /*if(rezultate.get(rezultate.size()-1).getCostTotal() != 0) {
             //RezultatCostCalcul min = Collections.min(rezultate, new RezultatCostCalcul());
             System.out.print("Minimul: ");
             //showRezultatItem(min);
         }*/
 
-        afisareZeceRezultate();
+        /*afisareZeceRezultate();
+        List<Piesa> sol = new ArrayList<>();
+        sol.addAll(solutieIntermed1);
+
+        Collections.copy(solutieIntermediara3,solIntermed2);*/
     }
 
-    public ArrayList<Piesa> getSolutieIntermediara3() {
-        return solutieIntermediara3;
-    }
 
-    public void setSolutieIntermediara3(ArrayList<Piesa> solutieIntermediara3) {
-        this.solutieIntermediara3 = solutieIntermediara3;
-    }
 
     public Masinarie getMasina() {
         return masina;
@@ -169,9 +172,9 @@ public class Robot {
         }
     }
 
-    private void afisareRezumatSolutie(long startTime, long stoptime) {
+    private void afisareRezumatSolutie(long startTime, long stoptime, int count, int count2) {
         System.out.println("Timp total: " + (stoptime - startTime));
-        System.out.println("Numar total de solutii: " + rezultate.size());
+        System.out.println("Numar total de solutii: " + count + "\n Numar solutii valide: " + count2);
     }
 
     private void afisareZeceRezultate() {
