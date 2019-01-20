@@ -1,48 +1,46 @@
 
-hsquid:CommentedOutCodeLine	"<This block of commented-out lines of code should be removed.(Ò´‹I8«ÇµŸ…-
-jsquid:CommentedOutCodeLine™"<This block of commented-out lines of code should be removed.(ƒó«ï8€­‹œ…-
-esquid:UnusedPrivateMethod"3Remove this unused private "calculeazaCost" method.(¨ÊÏÿÿÿÿÿ8ˆìÆœ…-
-Œsquid:S1319"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(©ýå™þÿÿÿÿ
+W
+squid:S106ˆ"9Replace this use of System.out or System.err by a logger.(£¥§Í8Îº‘—…-
+—squid:S1319 "{The type of the "solutieIntermed1" object should be an interface such as "List" rather than the implementation "ArrayList".(ãî¦ƒýÿÿÿÿ
+isquid:CommentedOutCodeLines"<This block of commented-out lines of code should be removed.(’×óí8è‡Æœ…-
+V
+squid:S106Ž"9Replace this use of System.out or System.err by a logger.(ñ‹¨98™Ž”—…-
+psquid:S2293
+"YReplace the type specification in this constructor call with the diamond operator ("<>").(Ö·éÇ
+\
+squid:S106‡"9Replace this use of System.out or System.err by a logger.(ªÓ¼áþÿÿÿÿ8ä‰û™…-
+^squid:S18543"@Remove this useless assignment to local variable "solIntermed2".(Æ½‰¶8»ÿ¸Ÿ…-
+<squid:S2153'"Remove the boxing of "i".(Ê•Äûÿÿÿÿ8óô·—…-
+V
+squid:S106Q"9Replace this use of System.out or System.err by a logger.(ýÚîÓ8©ËºŸ…-
 [
-squid:S106["9Replace this use of System.out or System.err by a logger.(™…Í˜øÿÿÿÿ8Ù×™…-
-—squid:S1319!"{The type of the "solutieIntermed1" object should be an interface such as "List" rather than the implementation "ArrayList".(ãî¦ƒýÿÿÿÿ
+squid:S106|"9Replace this use of System.out or System.err by a logger.(·ßú—ÿÿÿÿÿ8è‡Æœ…-
+V
+squid:S106P"9Replace this use of System.out or System.err by a logger.(Àš±Ü8Ù×™…-
+[
+squid:S106{"9Replace this use of System.out or System.err by a logger.(™…Í˜øÿÿÿÿ8è‡Æœ…-
+[
+squid:S106C"9Replace this use of System.out or System.err by a logger.(Ì¬­™øÿÿÿÿ8·“ß®…-
+nsquid:CommentedOutCodeLine*"<This block of commented-out lines of code should be removed.(ÂÕí¨ÿÿÿÿÿ8óô·—…-
+˜squid:S1319c"zThe type of the "pieseDeAsamblat" object should be an interface such as "List" rather than the implementation "ArrayList".(Æ€®µ8¨õÞ–…-
 W
-squid:S106«"9Replace this use of System.out or System.err by a logger.(¼Óâí8™Ž”—…-
+squid:S106•"9Replace this use of System.out or System.err by a logger.(ÓäÑ8‚Ïœ—…-
+isquid:HiddenFieldCheckk"@Rename "solIntermed2" which hides the field declared at line 15.(Æ½‰¶8è‡Æœ…-
+“squid:S1319_"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(Ì¿òÈüÿÿÿÿ8¨õÞ–…-
+Asquid:S2119F"Save and re-use this "Random".(šŸ«íøÿÿÿÿ8•ÆÕ™…-
+isquid:CommentedOutCodeLineu"<This block of commented-out lines of code should be removed.(éë™8è‡Æœ…-
+‡squid:S1319"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(“ä«
 Ssquid:S1068"0Remove this unused "solIntermed2" private field.(ëØàÖúÿÿÿÿ8õò…-
-˜squid:S1319}"zThe type of the "pieseDeAsamblat" object should be an interface such as "List" rather than the implementation "ArrayList".(Æ€®µ8¨õÞ–…-
+isquid:HiddenFieldCheck3"@Rename "solIntermed2" which hides the field declared at line 15.(Æ½‰¶8õò…-
+Dsquid:S2129'"!Remove this "Integer" constructor(Ê•Äûÿÿÿÿ8óô·—…-
+isquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ƒó«ï8€­‹œ…-
+ksquid:UnusedPrivateMethod™"9Remove this unused private "afisareZeceRezultate" method.(‰£Íúÿÿÿÿ8»ÿ¸Ÿ…-
 W
-squid:S106¢"9Replace this use of System.out or System.err by a logger.(£¥§Í8Îº‘—…-
-V
-squid:S106©"9Replace this use of System.out or System.err by a logger.(ñ‹¨98™Ž”—…-
-squid:S1319"tThe type of the "rezultate" object should be an interface such as "List" rather than the implementation "ArrayList".(“þ…Àþÿÿÿÿ
-‡squid:S1319"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(“ä«
-isquid:HiddenFieldCheck4"@Rename "solIntermed2" which hides the field declared at line 15.(Æ½‰¶8õò…-
-jsquid:CommentedOutCodeLine¥"<This block of commented-out lines of code should be removed.(éë™8Îº‘—…-
+squid:S106–"9Replace this use of System.out or System.err by a logger.(¹òƒï8‚Ïœ—…-
+dsquid:UnusedPrivateMethodg"3Remove this unused private "calculeazaCost" method.(¨ÊÏÿÿÿÿÿ8ˆìÆœ…-
+squid:S1319"tThe type of the "rezultate" object should be an interface such as "List" rather than the implementation "ArrayList".(“þ…Àþÿÿÿÿ
 W
-squid:S106±"9Replace this use of System.out or System.err by a logger.(¹òƒï8‚Ïœ—…-
-W
-squid:S106°"9Replace this use of System.out or System.err by a logger.(ÓäÑ8‚Ïœ—…-
-<squid:S2153("Remove the boxing of "i".(Ê•Äûÿÿÿÿ8óô·—…-
-Asquid:S2119T"Save and re-use this "Random".(šŸ«íøÿÿÿÿ8•ÆÕ™…-
-nsquid:CommentedOutCodeLine+"<This block of commented-out lines of code should be removed.(ÂÕí¨ÿÿÿÿÿ8óô·—…-
-isquid:CommentedOutCodeLineh"<This block of commented-out lines of code should be removed.(ÀÈýÐ8»ÿ¸Ÿ…-
-jsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(éë™8è‡Æœ…-
-V
-squid:S106\"9Replace this use of System.out or System.err by a logger.(ýÚîÓ8©ËºŸ…-
-\
-squid:S106–"9Replace this use of System.out or System.err by a logger.(·ßú—ÿÿÿÿÿ8è‡Æœ…-
-ksquid:UnusedPrivateMethod´"9Remove this unused private "afisareZeceRezultate" method.(‰£Íúÿÿÿÿ8»ÿ¸Ÿ…-
-^squid:S18544"@Remove this useless assignment to local variable "solIntermed2".(Æ½‰¶8»ÿ¸Ÿ…-
-isquid:CommentedOutCodeLineb"<This block of commented-out lines of code should be removed.(½¿ýÙ8ÆØ™œ…-
-\
-squid:S106¡"9Replace this use of System.out or System.err by a logger.(ªÓ¼áþÿÿÿÿ8ä‰û™…-
-Dsquid:S2129("!Remove this "Integer" constructor(Ê•Äûÿÿÿÿ8óô·—…-
-psquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(Ö·éÇ
-\
-squid:S106•"9Replace this use of System.out or System.err by a logger.(™…Í˜øÿÿÿÿ8è‡Æœ…-
-“squid:S1319y"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(Ì¿òÈüÿÿÿÿ8¨õÞ–…-
-isquid:CommentedOutCodeLine:"<This block of commented-out lines of code should be removed.(Ä¤¿³8½ÉŸ…-
-hsquid:CommentedOutCodeLineK"<This block of commented-out lines of code should be removed.(™÷ùg8öžÉŸ…-
-jsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(’×óí8è‡Æœ…-
-jsquid:HiddenFieldCheck…"@Rename "solIntermed2" which hides the field declared at line 15.(Æ½‰¶8è‡Æœ…-
-osquid:CommentedOutCodeLine¶"<This block of commented-out lines of code should be removed.(—Ûóäûÿÿÿÿ8²¯÷™…-
+squid:S106"9Replace this use of System.out or System.err by a logger.(¼Óâí8™Ž”—…-
+nsquid:CommentedOutCodeLineI"<This block of commented-out lines of code should be removed.(£•õ¡øÿÿÿÿ8Å•Â´…-
+osquid:CommentedOutCodeLine›"<This block of commented-out lines of code should be removed.(—Ûóäûÿÿÿÿ8²¯÷™…-
+Œsquid:S1319"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(©ýå™þÿÿÿÿ

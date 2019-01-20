@@ -60,27 +60,28 @@ public class Robot {
             }
             costTotal = masina.getCostTotal();
 
-            if (costTotal < solutie3CostTotal) {
+            if (costTotal <= solutie3CostTotal) {
                 solutie3CostTotal = costTotal;
                 solutieIntermediara3 = new ArrayList<>();
                 solutieIntermediara3.addAll(solIntermed2);
+                System.out.println("Cost: " + costTotal + "\nSolutie: " + solutieIntermediara3);
                 count2++;
             }
-
             Random rand = new Random();
             int x = rand.nextInt(10);
             int y = rand.nextInt(10);
+            //int y = x+1;
+            //if(y == 10){
+              //  y = 0;
+            //}
             Collections.swap(solutieIntermed1, x, y);
-
         }
         if (costTotal != 0) {
-            System.out.println("Cost total: " + costTotal);
+            System.out.println("Cost total: " + solutie3CostTotal);
             System.out.println("Best solution: " + solutieIntermediara3);
         }
-
         long stoptime = System.currentTimeMillis();
         afisareRezumatSolutie(startTime, stoptime, count, count2);
-
     }
 
     public Masinarie getMasina() {

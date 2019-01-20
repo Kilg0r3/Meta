@@ -1,6 +1,6 @@
 
 Œsquid:S1319"pThe type of the "model" object should be an interface such as "List" rather than the implementation "ArrayList".(œ¤ÑÖüÿÿÿÿ
-‡squid:S1319"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(„Š¸
-ƒsquid:S13198"lThe type of the "a" object should be an interface such as "List" rather than the implementation "ArrayList".( ÿ§ˆ
 T
 squid:S106:"9Replace this use of System.out or System.err by a logger.(Óƒ¢Íûÿÿÿÿ
+‡squid:S1319"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(„Š¸
+ƒsquid:S13198"lThe type of the "a" object should be an interface such as "List" rather than the implementation "ArrayList".( ÿ§ˆ
